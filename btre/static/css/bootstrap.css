@@ -395,6 +395,10 @@ mark,
   max-width: 100%;
   height: auto; }
 
+  .img-fluid.lightb {
+    height: 112px;
+  }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -3064,7 +3068,8 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem; 
+  height: 100%}
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -3137,7 +3142,20 @@ input[type="button"].btn-block {
 .card-img-top {
   width: 100%;
   border-top-left-radius: calc( 0.25rem - 1px);
-  border-top-right-radius: calc( 0.25rem - 1px); }
+  border-top-right-radius: calc( 0.25rem - 1px); 
+  height: 35%;}
+
+  #realtor {
+    width: 100%;
+    border-top-left-radius: calc( 0.25rem - 1px);
+    border-top-right-radius: calc( 0.25rem - 1px);
+    height: auto; }
+
+.card-img-top.about {
+  width: 100%;
+  border-top-left-radius: calc( 0.25rem - 1px);
+  border-top-right-radius: calc( 0.25rem - 1px);
+  height: auto;}
 
 .card-img-bottom {
   width: 100%;
@@ -6123,7 +6141,8 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+  height: 20% }
 
 @media (min-width: 576px) {
   .text-sm-left {
