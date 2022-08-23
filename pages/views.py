@@ -18,7 +18,7 @@ def home(request):
     }
     
     
-    return render (request, '../templates/home.html', context)
+    return render (request, '../templates/pages/home.html', context)
 
 
 def about (request):
@@ -30,4 +30,4 @@ def about (request):
         'realtors':realtors,
         'mvp':mvp
     }
-    return render (request, '../templates/about.html', context)
+    return render (request, '../templates/pages/about.html', context)

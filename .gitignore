@@ -135,6 +135,7 @@ celerybeat.pid
 /static
 /media
 .env
+.envpass
 .venv
 env/
 venv/
