@@ -48,7 +48,7 @@ def contact(request):
         #     'Property Listing Inquiry',
         #     'We received an inquiry for ' + listing + '. Sign into the admin panel for more info',
         #     'tal.practice.django@gmail.com',
-        #     [realtor_email, 'shlamovich@yandex.ru'],
+        #     ['shlamovich@yandex.ru'],
         #     fail_silently=False
         # )
 
